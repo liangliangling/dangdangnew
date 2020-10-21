@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品详情页</title>
+    <link rel="shortcut icon" href="../images/index/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/detail.css">
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <script src="../js/detail.js"></script>
+    <script src="../js/public.js"></script>
+    <script src="../lib/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="all">
+        <div class="headall">
+            <!-- 头部 -->
+            <div class="main" id="head">
+                <ul class="oneul">
+                    <li class="dizhi oneli"><a href="javascript:;" class="beij">&nbsp;&nbsp;送至：北京&nbsp;&nbsp;∨</a></li>
+                    <li class="oneli">&nbsp;欢迎光临当当，请<a href="../pages/login.html" class="deng">&nbsp;登录&nbsp;</a><span
+                            class="dengspan">成为会员</span>
+                    </li>
+                    <li class="oneli"><i class="iconfont icon-ai-cart"></i><a href="javascript:;">购物车</a><span
+                            class="deng">0</span>
+                    </li>
+                    <li class="xian oneli"><span>|</span></li>
+                    <li class="oneli"><a href="javascript:;">&nbsp;我的订单</a>&nbsp;</li>
+                    <li class="xian oneli"><span>|</span></li>
+                    <li class="oneli"><a href="javascript:;">&nbsp;我的云书房</a>&nbsp;</li>
+                    <li class="xian oneli"><span>|</span></li>
+                    <li class="wdedan oneli"><a href="javascript:;">我的当当</a>&nbsp;∨
+                        <ul class="wdedangdang">
+                            <li class="wde"><a href="javascript:;">我的当当</a>&nbsp;∧</li>
+                            <li class="dangdang dddingdan"><a href="javascript:;">我的订单</a></li>
+                            <li class="dangdang"><a href="javascript:;">银铃铛抵现</a></li>
+                            <li class="dangdang"><a href="javascript:;">我的收藏</a></li>
+                            <li class="dangdang"><a href="javascript:;">我的余额</a></li>
+                            <li class="dangdang"><a href="javascript:;">我的评论</a></li>
+                            <li class="dangdang"><a href="javascript:;">礼券/礼品卡</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="xian oneli"><span>|</span></li>
+                    <li class="oneli lingwu"><a href="javascript:;">0元领物</a>&nbsp;∨
+                        <ul class="ling">
+                            <li class="wdewu"><a href="javascript:;">0元领物</a>&nbsp;∧</li>
+                            <li class="dangdang dddingdan"><a href="javascript:;">0元领物</a></li>
+                            <li class="dangdang"><a href="javascript:;">当当拼团</a></li>
+                            <li class="dangdang"><a href="javascript:;">1元砍价</a></li>
+                            <li class="dangdang"><a href="javascript:;">1分抽奖</a></li>
+                        </ul>
+                    </li>
+                    <li class="xian oneli"><span>|</span></li>
+                    <li class="oneli"><a href="javascript:;">&nbsp;小说投稿</a>&nbsp;</li>
+                    <li class="xian oneli"><span>|</span></li>
+                    <li class="oneli"><a href="javascript:;">&nbsp;我要出书</a>&nbsp;</li>
+                    <li class="xian oneli"><span>|</span></li>
+                    <li class="oneli caigou"><a href="javascript:;">企业采购</a>&nbsp;∨
+                        <ul class="cai">
+                            <li class="wdecaig"><a href="javascript:;">企业采购</a>&nbsp;∧</li>
+                            <li class="dangdang dddingdan"><a href="javascript:;">大宗采购</a></li>
+                            <li class="dangdang"><a href="javascript:;">礼品卡采购</a></li>
+                            <li class="dangdang"><a href="javascript:;">礼品卡激活</a></li>
+                            <li class="dangdang"><a href="javascript:;">礼品卡使用</a></li>
+                            <li class="dangdang"><a href="javascript:;">分销/荐购</a></li>
+                            <li class="dangdang"><a href="javascript:;">礼品卡专区</a></li>
+                        </ul>
+                    </li>
+                    <li class="xian oneli"><span>|</span></li>
+                    <li class="kehu oneli kehufuwu"><a href="javascript:;">客户服务</a>&nbsp;∨
+                        <ul class="kehuf">
+                            <li class="wdekehufuwu"><a href="javascript:;">客户服务</a>&nbsp;∧</li>
+                            <li class="dangdang dddingdan"><a href="javascript:;">大宗采购</a></li>
+                            <li class="dangdang"><a href="javascript:;">礼品卡采购</a></li>
+                            <li class="dangdang"><a href="javascript:;">礼品卡激活</a></li>
+                            <li class="dangdang"><a href="javascript:;">礼品卡使用</a></li>
+                            <li class="dangdang"><a href="javascript:;">分销/荐购</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main headone">
+            <a href="../pages/index.html" class="logo"><img src="../images/index/DDlogoNEW.gif" alt=""></a>
+            <form class="sou">
+                <input type="text" id="text" placeholder="浮生物语">
+                <ul class="lianx">
+                </ul>
+                <button class="sousuo iconfont icon-sousuo" id="sousuo"></button>
+                <select class="fenlei">
+                    <option selected>全部分类</option>
+                    <option>选项2</option>
+                    <option>选项3</option>
+                </select>
+            </form>
+            <div class="dingdan">
+                <a href="./cart.html" class="gouwuche">
+                    <p>购物车&nbsp;<b>0</b></p>
+                </a><a href="javascript:;" class="wdedingdan">
+                    <p>我的订单</p>
+                </a>
+            </div>
+            <ul class="resou">
+                <li class="resouone">热搜：</li>
+                <li><a href="javascript:;">万物漫游指南</a></li>
+                <li><a href="javascript:;">蕉下</a></li>
+                <li><a href="javascript:;">儿童成语学习</a></li>
+                <li><a href="javascript:;">红星照耀中国</a></li>
+                <li><a href="javascript:;">英语绘本</a></li>
+                <li><a href="javascript:;">秒杀1元抢</a></li>
+                <li class="resoulast"><a href="javascript:;">高级搜索</a></li>
+            </ul>
+            <button class="meaufenlei"><span>全部商品分类</span><i class="iconfont icon-pulldown01"></i></button>
+            <ul class="nav">
+                <li><a href="javascript:;">图书</a></li>
+                <li><a href="javascript:;">电子书</a></li>
+                <li><a href="javascript:;">网络文学</a></li>
+                <li><a href="javascript:;">服装</a></li>
+                <li><a href="javascript:;">运动户外</a></li>
+                <li><a href="javascript:;">孕婴童</a></li>
+                <li><a href="javascript:;">家居</a></li>
+                <li><a href="javascript:;">当当优品</a></li>
+                <li><a href="javascript:;">食品</a></li>
+                <li><a href="javascript:;">Apple</a></li>
+                <li><a href="javascript:;">电器城</a></li>
+            </ul>
+        </div>
+        <div class="bian1">
+        </div>
+        <div class="main mainad">
+            <div class="quanbushangp">
+                <ol class="yiji">
+                    <li class="yijione"><a href="javascript:;" class="tu">图书、童书</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;">图书、</a><a href="javascript:;">童书</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detailone">111
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">电子书、网络文学</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">电子书、</a>、<a href="javascript:;">网络文学</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detailtwo">222
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">创意文字、拍卖</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">创意文具、</a><a href="javascript:;">拍卖</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detail3">222
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">服饰、内衣</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">服饰、</a><a href="javascript:;">内衣</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detail4">222
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">鞋靴、箱包</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">鞋靴、</a><a href="javascript:;">箱包</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detail5">222
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">鞋靴、箱包</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">鞋靴、</a><a href="javascript:;">箱包</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detail6">222
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">孕、婴、童</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">孕、</a><a href="javascript:;">婴、</a><a
+                                    href="javascript:;">童、</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detail7">222
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">家居、家纺、汽车</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">家居、</a><a href="javascript:;">家纺、</a><a
+                                    href="javascript:;">汽车、</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detail8">222
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">家具、家装、康体</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">家具、</a><a href="javascript:;">家装、</a><a
+                                    href="javascript:;">康体、</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detail9">222
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">美妆、个人护理、成人</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">美妆、</a><a href="javascript:;">个人护理、</a><a
+                                    href="javascript:;">成人、</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detail10">222
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">食品、茶酒、生鲜</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">食品、</a><a href="javascript:;">茶酒、</a><a
+                                    href="javascript:;">生鲜、</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detail11">222
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">珠宝饰品</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">珠宝饰品</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detail12">222
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">手机、数码、电脑办公</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">手机、</a><a href="javascript:;">数码、</a><a
+                                    href="javascript:;">电脑办公、</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detail13">222
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">家用电器</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">家用电器</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detail14">222
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">当当礼品卡、生活服务</a>
+                        <ul class="erji erjilast">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">当当礼品卡、</a><a href="javascript:;">生活服务、</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detail15">222
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class="main headad"><img src="../images/detail/headad.jpg" alt="">
+        </div>
+        <div class=" main zhanshi">
+            <div class="show">
+                <img src="../images/detail/10.jpg" alt="" class="yuantu">
+                <ul>
+                    <!-- <li class="10"><a href="javascript:;"><img src="../images/detail/x_10.jpg" alt=""></a></li>
+                    <li class="11"><a href="javascript:;"><img src="../images/detail/x_11.jpg" alt=""></a></li>
+                    <li class="12"><a href="javascript:;"><img src="../images/detail/x_12.jpg" alt=""></a></li>
+                    <li class="13"><a href="javascript:;"><img src="../images/detail/x_13.jpg" alt=""></a></li>
+                    <li class="14"><a href="javascript:;"><img src="../images/detail/x_14.jpg" alt=""></a></li> -->
+                </ul>
+                <div class="mask"></div>
+                <div class="uushow">
+                    <img src="../images/detail/u_10.jpg" alt="">
+                    <!-- <img src="../images/xiangqing/datu/1_1.jpg" alt=""> -->
+                </div>
+                <div class="fenx"></div>
+            </div>
+            <div class="dangdangziying">
+                <ul>
+                    <li class="title"><img src="../images/detail/icon_ddzy.png" alt="">
+                        <span>东野圭吾：白夜行（易烊千玺、孟非推荐，东野圭吾作品无冕之王）</span>
+                        <h2>我一直走在白夜里，从来就没有太阳，所以不怕失去。中文版发行量超600万册。</h2>
+                    </li>
+                    <li class="author">
+                        <span>作者:[日]&nbsp;<a href="javascript:;">东野圭吾</a>&nbsp;著</span>，<span><a
+                                href="javascript:;">新经典</a>出品</span>
+                        <span class="chubanshe">出版社：<a href="javascript:;">南海出版公司</a></span><span>出版时间2017年08月</span>
+                    </li>
+                    <li class="paihang">
+                        <span class="pai">在<a href="javascript:;">当当小说畅销榜</a>排名7位</span><span
+                            class="iconfont icon-xingxing"></span><span class="iconfont icon-xingxing"></span><span
+                            class="iconfont icon-xingxing"></span><span class="iconfont icon-xingxing"></span><span
+                            class="iconfont icon-xingxing"></span>
+                        <span><a href="javascript:;">185673742</a>条评论</span>
+                    </li>
+                    <li class="dangdangjia">
+                        <span class="dangjia">当当价</span>
+                        <span class="jiangjiatz">降价通知</span>
+                        <span class="dianzi">电子书价</span>
+                        <p class="tejiaone">￥<span>59.60</span>
+                            <span class="dianzishujia"><i>￥</i><span>23.99</span></span>
+                        </p>
+                        <p class="dingjia">定价<span>￥59.6</span></p>
+                        <a href="javascript:;" class="gitad"><img src="../images/detail/minaAttract-product-price.gif"
+                                alt=""></a>
+                    </li>
+                    <li class="youhui">
+                        <h1>促&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;销</h1>
+                        <ol class="jiagou">
+                            <li class="jiajiagou"><img src="../images/detail/youhui_03.jpg" alt="">
+                                <i><input type="checkbox" name="" />+11.9元换购《白夜行》</i>
+                            </li>
+                            <li class="manejian">
+                                <img src="../images/detail/youhui_06.jpg" alt="">
+                                <span>每满￥100￥50</span><a href="javascript:;">详情&gt;&gt;</a>
+                            </li>
+                            <li class="manejian">
+                                <img src="../images/detail/youhui_06.jpg" alt="">
+                                <span>每满￥100￥40</span><a href="javascript:;">详情&gt;&gt;</a>
+                            </li>
+                            <li class="jiagoushangp">
+                                <img src="../images/detail/youhui_11.jpg" alt="">
+                                <span>购买本商品可以加价换购以下任意一件商品</span><a href="javascript:;">选购商品∨</a>
+                            </li>
+                            <li class="tishi"><i class="iconfont icon-tishi"></i>促销不可多选，请在购物车选择该单品能享受的促销</li>
+                        </ol>
+                    </li>
+                    <li class="peisong">
+                        <h1>配&nbsp;&nbsp;送&nbsp;&nbsp;至</h1>
+                        <i>北京市东城区</i><b>有货</b><span>满49元免运费∨</span>
+                    </li>
+                    <li class="fuwuone">
+                        <h1>服&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;务</h1>
+                        <span>由<i>"当当"</i>发货，并提供售后服务。&nbsp;&nbsp;23:45前完成下单，预计<i>明天</i>可送达</span>
+                    </li>
+                    <li class="guanlianshangp">
+                        <h1>&nbsp;关联商品</h1>
+                        <i class="one"></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </li>
+                </ul>
+                <i class="numbtn"><span>1</span>
+                    <a href="javascript:;" class="tianjia">+</a>
+                    <a href="javascript:;" class="jianshao">-</a>
+                </i>
+                <button class="add"><span class="iconfont icon-gouwuche"></span>加入购物车</button>
+                <button class="goumai">立即购买</button>
+                <button class="goumaidianzishu">购买电子书</button>
+            </div>
+            <div class="dianpuxinxi">
+                <a href="javascript:;" class="dianpulogo"></a>
+                <p class="gsiming">新经典发行有限公司</p>
+                <i class="dangziying"><img src="../images/detail/favicon.ico" alt=""><span>当当自营</span></i>
+                <ul class="gezxinx">
+                    <li><span class="diyige"><img src="../images/detail/dianpuxinxi_03.jpg"
+                                alt=""><span>正品保障</span></span>
+                        <span class="dierge"><img src="../images/detail/dianpuxinxi_05.jpg"
+                                alt=""><span>服务支持</span></span>
+                    </li>
+                    <li><span class="diyige"><img src="../images/detail/dianpuxinxi_09.jpg"
+                                alt=""><span>差价返还</span></span>
+                        <span class="dierge"><img src="../images/detail/dianpuxinxi_10.jpg"
+                                alt=""><span>15天换货</span></span>
+                    </li>
+                    <li><img src="../images/detail/dianpuxinxi_13.jpg" alt=""><span>礼品包装</span></li>
+                    <li><img src="../images/detail/dianpuxinxi_15.jpg" alt=""><span>支持7天无理由退货</span></li>
+                    <li><img src="../images/detail/dianpuxinxi_17.jpg" alt=""><span>支持礼品卡</span></li>
+                    <li><img src="../images/detail/dianpuxinxi_19.jpg" alt=""><span>支持当当V卡</span></li>
+                    <li><img src="../images/detail/dianpuxinxi_21.jpg" alt=""><span>企业批量采买</span></li>
+                </ul>
+                <img src="../images/detail/service_dj.gif" alt="" class="zhinengkefu">
+                <button class="jinrudianpu">进入店铺</button>
+                <button class="shoucangdianpu">收藏店铺</button>
+                <div class="qitshangjia">
+                    <i class="zaishou">
+                        <p>88个商家在售&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;￥16起</p>
+                        <p>商家预计送达时间5-14天</p>
+                    </i>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <i class="bottombian"></i>
+            <i class="bottomone">
+                <div class="zhenggui main">
+                    <ol class="oloe">
+                        <li class="zheng"></li>
+                        <li class="qian"></li>
+                        <li class="qiche"></li>
+                        <li class="tuihuan"></li>
+                    </ol>
+                </div>
+            </i>
+            <div class="gouwuliuc main">
+                <ul class="oneul">
+                    <li>
+                        <h1>购物指南</h1>
+                    </li>
+                    <li>购物流程</li>
+                    <li>发票制度</li>
+                    <li>服务协议</li>
+                    <li>会员优惠</li>
+                </ul>
+                <ul>
+                    <li>
+                        <h1>支付方式</h1>
+                    </li>
+                    <li>网上支付</li>
+                    <li>礼品卡支付</li>
+                    <li>银行转账</li>
+                    <li>礼券支付</li>
+                </ul>
+                <ul>
+                    <li>
+                        <h1>订单服务</h1>
+                    </li>
+                    <li>配送服务查询</li>
+                    <li>自动订单状态说明</li>
+                    <li>自助取消订单</li>
+                    <li>自助修改订单</li>
+                </ul>
+                <ul>
+                    <li>
+                        <h1>配送方式</h1>
+                    </li>
+                    <li>当日递</li>
+                    <li>次日达</li>
+                    <li>订单自提</li>
+                    <li>验货与签收</li>
+                </ul>
+                <ul>
+                    <li>
+                        <h1>退换货</h1>
+                    </li>
+                    <li>退换货服务查询</li>
+                    <li>自助申请退换货</li>
+                    <li>退换货进度查询</li>
+                    <li>退款方式和时间</li>
+                </ul>
+                <ul>
+                    <li>
+                        <h1>商家服务</h1>
+                    </li>
+                    <li>商家中心</li>
+                    <li>运营服务</li>
+                    <li>加入尾品汇</li>
+                </ul>
+            </div>
+            <i class="recifenge"></i>
+        </div>
+        <div class="guding">
+            <ul>
+                <li><img src="../images/detail/dibu_03.jpg" alt=""></li>
+                <li class="kui">用户</br>反馈</li>
+                <li class="gua">广告</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

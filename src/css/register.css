@@ -1,0 +1,104 @@
+.all {
+    background: #f6f9fb;
+}
+
+.main {
+    width: 962px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 75px;
+    border-bottom: 2px solid #e16f00;
+    background-color: #ffffff;
+}
+
+.zhuce {
+    margin-top: 28px;
+    height: 554px;
+    background-color: #ffffff;
+}
+
+.xinyhu {
+    margin-left: 43px;
+    margin-top: 30px;
+    float: left;
+    height: 48px;
+    width: 140px;
+    border: 1px solid #eceef2;
+}
+
+.topone {
+    height: 79px;
+    border-bottom: 1px solid #eef0f3;
+}
+
+.dangdanghome {
+    cursor: pointer;
+    position: relative;
+    top: 45px;
+    left: 600px;
+}
+
+.zhucebangz {
+    cursor: pointer;
+    position: relative;
+    top: 45px;
+    left: 620px;
+}
+
+.home {
+    display: inline-block;
+    vertical-align: middle;
+    height: 15px;
+    width: 15px;
+    background-image: url(../images/register/icon_20150706.png);
+    background-repeat: no-repeat;
+    background-position: ;
+}
+
+.shuju {
+    font-size: 14px;
+    color: #666666;
+    margin-left: 294px;
+}
+
+.shuju li {
+    text-align: left;
+    margin-bottom: 28px;
+}
+
+.shuju input {
+    border: 1px solid #e6e6e6;
+    width: 316px;
+    height: 40px;
+}
+
+.yhum {
+    margin-top: 28px;
+}
+
+.shuju .check {
+    margin-left: 40px;
+    width: 16px;
+    height: 14px;
+}
+
+.shuju .tijiao {
+    cursor: pointer;
+    margin-left: 60px;
+    font-size: 16px;
+    color: #fff2ff;
+    text-align: center;
+    line-height: 48px;
+    width: 180px;
+    height: 48px;
+    border-radius: 50px;
+    background-color: #ff2935;
+}
+
+.xiaodangdang {
+    position: relative;
+    top: -500px;
+    left: 962px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新用户注册</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="shortcut icon" href="../images/index/favicon.ico" type="image/x-icon" />
+    <script src="../js/register.js"></script>
+    <script src="../lib/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="all">
+        <div class="main logo">
+            <img src="../images/register/ddnewhead_logo.gif" alt="">
+        </div>
+        <div class="main zhuce">
+            <div class="topone">
+                <button class="xinyhu">新用户注册</button>
+                <i class="dangdanghome"><span class="home"></span><span>当当首页</span></i>
+                <span class="zhucebangz">注册帮助</span>
+            </div>
+            <ul class="shuju">
+                <form action="../interface/register.php" method="POST">
+                    <li class="yhum"><span>&nbsp;&nbsp;用户名&nbsp;&nbsp;</span>
+                        <input type="text" placeholder="请输入用户名" name="username"></li>
+                    <li class="mima"><span>登录密码</span>
+                        <input type="password" name="password"></li>
+                    <li class="mimaquer"><span>确认密码</span>
+                        <input type="password"></li>
+                    <li class="mimaquer"><span>&nbsp;&nbsp;验证码&nbsp;&nbsp;</span>
+                        <input type="text" placeholder="请输入验证码"></li>
+                    <li>
+                        <input type="checkbox" name="" class="check"
+                            checked /><span>我已阅读并同意《当当交易条款》&nbsp;《当当社区条款》</span>
+                    </li>
+                    <li>
+                        <button class="tijiao">立即注册</button>
+                    </li>
+                </form>
+            </ul>
+            <img src="../images/register/xiaodangdang.png" alt="" class="xiaodangdang">
+        </div>
+    </div>
+</body>
+
+</html>

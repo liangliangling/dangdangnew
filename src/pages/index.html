@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>当当—网上购物中心：图书、母婴、美妆、家居、数码、家电、服装、鞋包等，正品低价，货到付款</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="shortcut icon" href="../images/index/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="../iconfont/iconfont.css" />
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/swiper.css">
+    <script src="../js/index.js"></script>
+    <script src="../js/public.js"></script>
+    <script src="../lib/jquery.min.js"></script>
+    <script src="../lib/swiper.js"></script>
+</head>
+
+<body>
+    <!-- 手机下单广告 -->
+    <div class="sjixiadan" id="sjixiadan">
+        <div class="main">
+            <a href="javascript:;" class="xiadan"><img src="../images/index/banner.png" alt="手机二维码"></a>
+            <button class="iconfont icon-chahao" id="guanbixiadan"></button>
+        </div>
+    </div>
+    <!-- 领券中心 -->
+    <div class="bian">
+        <div class="lingquanright"><img src="../images/index/lingquanzx.jpg" alt=""></div>
+        <div class="meau">
+            <i class="cheone"></i>
+            <b class="cheb">购物车</b>
+            <i class="shoucangone"></i>
+            <b class="cheb1">我的收藏</b>
+            <i class="zujione"></i>
+            <b class="cheb2">我的浏览</b>
+            <i class="lingdangone"></i>
+            <b class="cheb3">我的银铃铛</b>
+            <i class="zixunone"></i>
+            <b class="cheblast">咨询小当家</b>
+
+        </div>
+        <div class="fankui">
+            <img src="../images/index/erweimabottom_03.jpg" alt="" class="erweimabottom">
+            <i class="saoyisao"></i>
+            <!-- <b class="sao">购物车</b> -->
+            <i class="saoyisao2"></i>
+            <i class="saoyisao3"></i>
+            <i class="saoyisao4">广告</i>
+        </div>
+    </div>
+    <div class="all">
+        <div class="sousuonew">
+            <div class="main topnewad">
+                <img src="../images/index/sousounew.hpuWMccm" alt="">
+                <input type="text" name="" placeholder="&nbsp;&nbsp;浮生物语">
+                <i class="sousuotunew">
+                    <img src="../images/index/sousounew_03.jpg" alt="">
+                </i>
+            </div>
+        </div>
+        <!-- 最上边的广告 -->
+        <div class="main" id="ad"><a href="javascript:;"><img src="../images/index/ad1.jpg" alt=""></a></div>
+        <div class="headall">
+            <!-- 头部 -->
+            <div class="main" id="head">
+                <ul class="oneul">
+                    <li class="dizhi oneli"><a href="javascript:;" class="beij">&nbsp;&nbsp;送至：北京&nbsp;&nbsp;∨</a></li>
+                    <li class="oneli">&nbsp;欢迎光临当当，请<a href="../pages/login.html" class="deng">&nbsp;登录&nbsp;</a><span
+                            class="dengspan">成为会员</span>
+                    </li>
+                    <li class="oneli"><i class="iconfont icon-ai-cart"></i><a href="javascript:;">购物车</a><span
+                            class="deng">0</span>
+                    </li>
+                    <li class="xian oneli"><span>|</span></li>
+                    <li class="oneli"><a href="javascript:;">&nbsp;我的订单</a>&nbsp;</li>
+                    <li class="xian oneli"><span>|</span></li>
+                    <li class="oneli"><a href="javascript:;">&nbsp;我的云书房</a>&nbsp;</li>
+                    <li class="xian oneli"><span>|</span></li>
+                    <li class="wdedan oneli"><a href="javascript:;">我的当当</a>&nbsp;∨
+                        <ul class="wdedangdang">
+                            <li class="wde"><a href="javascript:;">我的当当</a>&nbsp;∧</li>
+                            <li class="dangdang dddingdan"><a href="javascript:;">我的订单</a></li>
+                            <li class="dangdang"><a href="javascript:;">银铃铛抵现</a></li>
+                            <li class="dangdang"><a href="javascript:;">我的收藏</a></li>
+                            <li class="dangdang"><a href="javascript:;">我的余额</a></li>
+                            <li class="dangdang"><a href="javascript:;">我的评论</a></li>
+                            <li class="dangdang"><a href="javascript:;">礼券/礼品卡</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="xian oneli"><span>|</span></li>
+                    <li class="oneli lingwu"><a href="javascript:;">0元领物</a>&nbsp;∨
+                        <ul class="ling">
+                            <li class="wdewu"><a href="javascript:;">0元领物</a>&nbsp;∧</li>
+                            <li class="dangdang dddingdan"><a href="javascript:;">0元领物</a></li>
+                            <li class="dangdang"><a href="javascript:;">当当拼团</a></li>
+                            <li class="dangdang"><a href="javascript:;">1元砍价</a></li>
+                            <li class="dangdang"><a href="javascript:;">1分抽奖</a></li>
+                        </ul>
+                    </li>
+                    <li class="xian oneli"><span>|</span></li>
+                    <li class="oneli"><a href="javascript:;">&nbsp;小说投稿</a>&nbsp;</li>
+                    <li class="xian oneli"><span>|</span></li>
+                    <li class="oneli"><a href="javascript:;">&nbsp;我要出书</a>&nbsp;</li>
+                    <li class="xian oneli"><span>|</span></li>
+                    <li class="oneli caigou"><a href="javascript:;">企业采购</a>&nbsp;∨
+                        <ul class="cai">
+                            <li class="wdecaig"><a href="javascript:;">企业采购</a>&nbsp;∧</li>
+                            <li class="dangdang dddingdan"><a href="javascript:;">大宗采购</a></li>
+                            <li class="dangdang"><a href="javascript:;">礼品卡采购</a></li>
+                            <li class="dangdang"><a href="javascript:;">礼品卡激活</a></li>
+                            <li class="dangdang"><a href="javascript:;">礼品卡使用</a></li>
+                            <li class="dangdang"><a href="javascript:;">分销/荐购</a></li>
+                            <li class="dangdang"><a href="javascript:;">礼品卡专区</a></li>
+                        </ul>
+                    </li>
+                    <li class="xian oneli"><span>|</span></li>
+                    <li class="kehu oneli kehufuwu"><a href="javascript:;">客户服务</a>&nbsp;∨
+                        <ul class="kehuf">
+                            <li class="wdekehufuwu"><a href="javascript:;">客户服务</a>&nbsp;∧</li>
+                            <li class="dangdang dddingdan"><a href="javascript:;">大宗采购</a></li>
+                            <li class="dangdang"><a href="javascript:;">礼品卡采购</a></li>
+                            <li class="dangdang"><a href="javascript:;">礼品卡激活</a></li>
+                            <li class="dangdang"><a href="javascript:;">礼品卡使用</a></li>
+                            <li class="dangdang"><a href="javascript:;">分销/荐购</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main headone">
+            <a href="../pages/index.html" class="logo"><img src="../images/index/DDlogoNEW.gif" alt=""></a>
+            <form class="sou">
+                <input type="text" id="text" placeholder="浮生物语">
+                <ul class="lianx">
+                </ul>
+                <button class="sousuo iconfont icon-sousuo" id="sousuo"></button>
+                <select class="fenlei">
+                    <option selected>全部分类</option>
+                    <option>店铺</option>
+                    <option>商品</option>
+                </select>
+            </form>
+            <div class="dingdan">
+                <a href="./cart.html" class="gouwuche">
+                    <p>购物车&nbsp;<b>0</b></p>
+                </a><a href="javascript:;" class="wdedingdan">
+                    <p>我的订单</p>
+                </a>
+            </div>
+            <ul class="resou">
+                <li class="resouone">热搜：</li>
+                <li><a href="javascript:;">万物漫游指南</a></li>
+                <li><a href="javascript:;">蕉下</a></li>
+                <li><a href="javascript:;">儿童成语学习</a></li>
+                <li><a href="javascript:;">红星照耀中国</a></li>
+                <li><a href="javascript:;">英语绘本</a></li>
+                <li><a href="javascript:;">秒杀1元抢</a></li>
+                <li class="resoulast"><a href="javascript:;">高级搜索</a></li>
+            </ul>
+            <button class="meaufenlei"><span>全部商品分类</span><i class="iconfont icon-pulldown01"></i></button>
+            <ul class="nav">
+                <li><a href="javascript:;">图书</a></li>
+                <li><a href="javascript:;">电子书</a></li>
+                <li><a href="javascript:;">网络文学</a></li>
+                <li><a href="javascript:;">服装</a></li>
+                <li><a href="javascript:;">运动户外</a></li>
+                <li><a href="javascript:;">孕婴童</a></li>
+                <li><a href="javascript:;">家居</a></li>
+                <li><a href="javascript:;">当当优品</a></li>
+                <li><a href="javascript:;">食品</a></li>
+                <li><a href="javascript:;">Apple</a></li>
+                <li><a href="javascript:;">电器城</a></li>
+            </ul>
+        </div>
+        <div class="bian1">
+        </div>
+        <div class="main mainad">
+            <div class="quanbushangp">
+                <ol class="yiji">
+                    <li class="yijione"><a href="javascript:;" class="tu">图书、童书</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;">图书、</a><a href="javascript:;">童书</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detailone">
+                                    <ol>
+                                        <li>
+                                            <i class="tushuguan">图书馆&gt;</i>
+                                            <i class="tongshuguan">童书馆&gt;</i>
+                                        </li>
+                                        <li class="sanjipaihangbang">
+                                            <span class="teshufenlei">排行榜</span>
+                                            <span>图书畅销榜</span><span>新书热卖榜</span><span>童书榜</span><span>热搜榜</span>
+                                            <span>好评榜</span><span>飙升榜</span><span>特价榜</span>
+                                        </li>
+                                        <li class="sanjitongshu">
+                                            <span class="teshufenlei">童书</span>
+                                            <span>0-2岁</span><span>|</span><span>3-6岁</span>
+                                            <span>|</span><span>7-10岁</span><span>|</span>
+                                            <span>11-14岁</span><span>|</span><span>绘本</span><span>|</span>
+                                            <span>中国儿童文学</span><span>|</span><span>外国儿童文学</span><span>|</span>
+                                            <span>科普/百科</span><span>|</span><span>婴儿读物</span><span>|</span>
+                                            <span>幼儿启蒙</span><span>|</span><span>益智游戏</span><span>|</span>
+                                            <span>玩具书</span><span>|</span><span>卡通动漫</span>
+                                        </li>
+                                    </ol>
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">电子书、网络文学</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">电子书、</a>、<a href="javascript:;">网络文学</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detailtwo">21
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">创意文字、拍卖</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">创意文具、</a><a href="javascript:;">拍卖</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detail3">3
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">服饰、内衣</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">服饰、</a><a href="javascript:;">内衣</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detail4">4
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">鞋靴、箱包</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">鞋靴、</a><a href="javascript:;">箱包</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detail5">5
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">鞋靴、箱包</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">鞋靴、</a><a href="javascript:;">箱包</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detail6">6
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">孕、婴、童</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">孕、</a><a href="javascript:;">婴、</a><a
+                                    href="javascript:;">童、</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detail7">7
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">家居、家纺、汽车</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">家居、</a><a href="javascript:;">家纺、</a><a
+                                    href="javascript:;">汽车、</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detail8">8
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">家具、家装、康体</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">家具、</a><a href="javascript:;">家装、</a><a
+                                    href="javascript:;">康体、</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detail9">9
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">美妆、个人护理、成人</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">美妆、</a><a href="javascript:;">个人护理、</a><a
+                                    href="javascript:;">成人、</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detail10">10
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">食品、茶酒、生鲜</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">食品、</a><a href="javascript:;">茶酒、</a><a
+                                    href="javascript:;">生鲜、</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detail11">11
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">珠宝饰品</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">珠宝饰品</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detail12">12
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">手机、数码、电脑办公</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">手机、</a><a href="javascript:;">数码、</a><a
+                                    href="javascript:;">电脑办公、</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detail13">13
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">家用电器</a>
+                        <ul class="erji">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">家用电器</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detail14">14
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="yijione"><a href="javascript:;" class="tu">当当礼品卡、生活服务</a>
+                        <ul class="erji erjilast">
+                            <li class="title">
+                                <a href="javascript:;" class="erjione">当当礼品卡、</a><a href="javascript:;">生活服务、</a>
+                            </li>
+                            <ul class="sanji">
+                                <li class="detail15">15
+                                </li>
+                            </ul>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+            <div class="lunbot1">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="javascript:;"><img src="../images/lunbot/1.jpg" alt=""></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;"><img src="../images/lunbot/2.jpg" alt=""></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;"><img src="../images/lunbot/3.jpg" alt=""></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;"><img src="../images/lunbot/4.jpg" alt=""></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;"><img src="../images/lunbot/5.jpg" alt=""></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;"><img src="../images/lunbot/6.jpg" alt=""></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;"><img src="../images/lunbot/7.jpg" alt=""></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;"><img src="../images/lunbot/8.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <!-- 如果需要分页器 -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- 如果需要导航按钮 -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- 如果需要滚动条 -->
+                    <!-- <div class="swiper-scrollbar"></div> -->
+                </div>
+            </div>
+            <div class="lunbot2">
+                <a href="javascript:;"><img src="../images/lunbot/11.jpg" alt=""></a>
+                <a href="javascript:;"><img src="../images/lunbot/lun.jpg" alt=""></a>
+                <a href="javascript:;"><img src="../images/lunbot/13.jpg" alt=""></a>
+                <a href="javascript:;"><img src="../images/lunbot/14.jpg" alt=""></a>
+            </div>
+            <div class="gonggaoright">
+                <a href="javascript:;" class="rightad"><img src="../images/index/公告.jpg" alt=""></a>
+                <div class="gongao">
+                    <button class="xinxigongao">信息公告</button>
+                    <button class="fuwugongao">服务公告</button>
+                    <ul class="xinxleft">
+                        <li><i class="iconfont icon-sanjiao" style="color: #646464;"></i><a href="javascript:;">300万图书
+                                每满100减40</a>
+                        </li>
+                        <li><i class="iconfont icon-sanjiao" style="color: #646464;"></i><a href="javascript:;">300万图书
+                                每满100减40</a>
+                        </li>
+                        <li><i class="iconfont icon-sanjiao" style="color: #646464;"></i><a href="javascript:;">300万图书
+                                每满100减40</a>
+                        </li>
+                    </ul>
+                    <ol class="fuwuright">
+                        <li><i class="iconfont icon-sanjiao" style="color: #646464;"></i><a href="javascript:;">300万图书
+                                每满100减40</a>
+                        </li>
+                        <li><i class="iconfont icon-sanjiao" style="color: #646464;"></i><a href="javascript:;">300万图书
+                                每满100减40</a>
+                        </li>
+                        <li><i class="iconfont icon-sanjiao" style="color: #646464;"></i><a href="javascript:;">300万图书
+                                每满100减40</a>
+                        </li>
+                    </ol>
+                </div>
+                <a href="javascript:;" class="ggbottom"><img src="../images/index/ggbottom.jpg" alt=""></a>
+            </div>
+        </div>
+        <div class=" main miaosha">
+            <div class="miaoshashijian"> <img src="../images/index/miaosha.png" alt=""><b
+                    class="iconfont icon-icon5"></b>
+                <p class="shijian">
+                    <span><i>0</i><i>0</i></span>&nbsp;<b>:</b>&nbsp;<span><i>0</i><i>0</i></span>&nbsp;<b>:</b>&nbsp;<span><i>0</i><i>0</i></span>
+                </p>
+                <div class="gegshijian">
+                    <span class="lingdian">00:00场</span>
+                    <span class="shidian">10:00场</span>
+                    <span class="shierdian">12:00场</span>
+                    <span class="shiliudian">16:00场</span>
+                    <span class="ershidian">20:00场</span>
+                </div>
+                <a href="javascript:;" class="changshangzhou">厂商周</a>
+                <i class="iconfont icon-dian botton bottone"></i><i class="iconfont icon-dian botttwo"></i>
+            </div>
+            <div class="huowu">
+                <i class="huadongxian"><span class="hua"></span></i>
+                <div class="shangpinzhanshi">
+                    <i class="shang1">
+                        <a href="javascript:;" class="shang2"><b><span class="jindu"></span></b>
+                            <p>已秒杀24%</p>
+                        </a>
+                        <h1>【1元秒杀】和大人一起读（一至四册） 一年级上册 统编小学语文教材“快乐读书吧“指定阅读 一年级必读经典书目</h1>
+                        <h2>秒杀价￥<span>1</span>&nbsp;&nbsp;<span class="yuanjia">19.8</span></h2>
+                    </i>
+                    <i class="shang1">
+                        <a href="javascript:;" class="shang3"><b><span class="jindu"></span></b>
+                            <p>已秒杀24%</p>
+                        </a>
+                        <h1>【1元秒杀】和大人一起读（一至四册） 一年级上册 统编小学语文教材“快乐读书吧“指定阅读 一年级必读经典书目</h1>
+                        <h2>秒杀价￥<span>1</span>&nbsp;&nbsp;<span class="yuanjia">19.8</span></h2>
+                    </i>
+                    <i class="shang1">
+                        <a href="javascript:;" class="shang4"><b><span class="jindu"></span></b>
+                            <p>已秒杀24%</p>
+                        </a>
+                        <h1>【1元秒杀】和大人一起读（一至四册） 一年级上册 统编小学语文教材“快乐读书吧“指定阅读 一年级必读经典书目</h1>
+                        <h2>秒杀价￥<span>1</span>&nbsp;&nbsp;<span class="yuanjia">19.8</span></h2>
+                    </i>
+                    <i class="shang1">
+                        <a href="javascript:;" class="shang5"><b><span class="jindu"></span></b>
+                            <p>已秒杀24%</p>
+                        </a>
+                        <h1>【1元秒杀】和大人一起读（一至四册） 一年级上册 统编小学语文教材“快乐读书吧“指定阅读 一年级必读经典书目</h1>
+                        <h2>秒杀价￥<span>1</span>&nbsp;&nbsp;<span class="yuanjia">19.8</span></h2>
+                    </i>
+                    <i class="shang1">
+                        <a href="javascript:;" class="shang6"><b><span class="jindu"></span></b>
+                            <p>已秒杀24%</p>
+                        </a>
+                        <h1>【1元秒杀】和大人一起读（一至四册） 一年级上册 统编小学语文教材“快乐读书吧“指定阅读 一年级必读经典书目</h1>
+                        <h2>秒杀价￥<span>1</span>&nbsp;&nbsp;<span class="yuanjia">19.8</span></h2>
+                    </i>
+                    <i class="shang1">
+                        <a href="javascript:;" class="shang7"><b><span class="jindu"></span></b>
+                            <p>已秒杀24%</p>
+                        </a>
+                        <h1>【1元秒杀】和大人一起读（一至四册） 一年级上册 统编小学语文教材“快乐读书吧“指定阅读 一年级必读经典书目</h1>
+                        <h2>秒杀价￥<span>1</span>&nbsp;&nbsp;<span class="yuanjia">19.8</span></h2>
+                    </i>
+                    <i class="shang1">
+                        <a href="javascript:;" class="shang8"><b><span class="jindu"></span></b>
+                            <p>已秒杀24%</p>
+                        </a>
+                        <h1>【1元秒杀】和大人一起读（一至四册） 一年级上册 统编小学语文教材“快乐读书吧“指定阅读 一年级必读经典书目</h1>
+                        <h2>秒杀价￥<span>1</span>&nbsp;&nbsp;<span class="yuanjia">19.8</span></h2>
+                    </i>
+                    <i class="shang1">
+                        <a href="javascript:;" class="shang9"><b><span class="jindu"></span></b>
+                            <p>已秒杀24%</p>
+                        </a>
+                        <h1>【1元秒杀】和大人一起读（一至四册） 一年级上册 统编小学语文教材“快乐读书吧“指定阅读 一年级必读经典书目</h1>
+                        <h2>秒杀价￥<span>1</span>&nbsp;&nbsp;<span class="yuanjia">19.8</span></h2>
+                    </i>
+                    <i class="shang1">
+                        <a href="javascript:;" class="shang10"><b><span class="jindu"></span></b>
+                            <p>已秒杀24%</p>
+                        </a>
+                        <h1>【1元秒杀】和大人一起读（一至四册） 一年级上册 统编小学语文教材“快乐读书吧“指定阅读 一年级必读经典书目</h1>
+                        <h2>秒杀价￥<span>1</span>&nbsp;&nbsp;<span class="yuanjia">19.8</span></h2>
+                    </i>
+                    <i class="shang1">
+                        <a href="javascript:;" class="shang11"><b><span class="jindu"></span></b>
+                            <p>已秒杀24%</p>
+                        </a>
+                        <h1>【1元秒杀】和大人一起读（一至四册） 一年级上册 统编小学语文教材“快乐读书吧“指定阅读 一年级必读经典书目</h1>
+                        <h2>秒杀价￥<span>1</span>&nbsp;&nbsp;<span class="yuanjia">19.8</span></h2>
+                    </i>
+                </div>
+                <div class="changshangz">
+                    <div class="changshangone">
+                        <a href="javascript:;" class="u1"></a>
+                        <a href="javascript:;" class="u2"></a>
+                        <a href="javascript:;" class="u3"></a>
+                        <a href="javascript:;" class="u4"></a>
+                    </div>
+                    <div class="changshangtwo">
+                        <a href="javascript:;" class="u5"></a>
+                        <a href="javascript:;" class="u6"></a>
+                        <a href="javascript:;" class="u7"></a>
+                        <a href="javascript:;" class="u8"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" main tushubankuai">
+            <div class="tushuleft">
+                <div class="tushunav">
+                    <p>图书</p><span>·</span>
+                    <p>电子书</p><span>·</span>
+                    <p>网络文学</p>
+                    <ul class="xuanxiang">
+                        <li class="xuanxiangon"><a href="javascript:;">最新上架</a></li>
+                        <li><a href="javascript:;">独家精品</a></li>
+                        <li><a href="javascript:;">重点推荐</a></li>
+                        <li><a href="javascript:;">电子书</a></li>
+                        <li><a href="javascript:;" class="alast">网络文学</a></li>
+                    </ul>
+                </div>
+                <div class="tushuzhanshi">
+                    <div class="adleft">
+                        <i class="topad"></i>
+                        <div class="bottomad">
+                            <ul class="diyi">
+                                <li><a href="javascript:;">童书</a></li>
+                                <li><a href="javascript:;">考试</a></li>
+                                <li><a href="javascript:;">青春文学</a></li>
+                                <li><a href="javascript:;">历史</a></li>
+                            </ul>
+                            <ul class="diyi dier">
+                                <li><a href="javascript:;">中小学教辅</a></li>
+                                <li><a href="javascript:;">小说</a></li>
+                                <li><a href="javascript:;">成功/励志</a></li>
+                                <li><a href="javascript:;">亲子/家教</a></li>
+                            </ul>
+                            <ul class="diyi">
+                                <li><a href="javascript:;">外语</a></li>
+                                <li><a href="javascript:;">文学</a></li>
+                                <li><a href="javascript:;">管理</a></li>
+                                <li><a href="javascript:;">全部分类&gt; </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="adcenter">
+                        <i class="adcentertop"><img src="../images/index/adcenter.jpg" alt=""></i>
+                        <i class="zhanshione">
+                        </i>
+                        <i class="zhanshione zhanshioneright">
+                        </i>
+                    </div>
+                    <div class="adright">
+                    </div>
+                </div>
+                <div class="tushuzhanshione">
+                    <div class="adleft">
+                        <i class="topad"></i>
+                        <div class="bottomad">
+                            <ul class="diyi">
+                                <li><a href="javascript:;">童书</a></li>
+                                <li><a href="javascript:;">考试</a></li>
+                                <li><a href="javascript:;">青春文学</a></li>
+                                <li><a href="javascript:;">历史</a></li>
+                            </ul>
+                            <ul class="diyi dier">
+                                <li><a href="javascript:;">中小学教辅</a></li>
+                                <li><a href="javascript:;">小说</a></li>
+                                <li><a href="javascript:;">成功/励志</a></li>
+                                <li><a href="javascript:;">亲子/家教</a></li>
+                            </ul>
+                            <ul class="diyi">
+                                <li><a href="javascript:;">外语</a></li>
+                                <li><a href="javascript:;">文学</a></li>
+                                <li><a href="javascript:;">管理</a></li>
+                                <li><a href="javascript:;">全部分类&gt; </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="adcenter">
+                        <i class="adcentertop"><img src="../images/index/adcenterone.jpg" alt=""></i>
+                        <i class="zhanshione">
+                        </i>
+                        <i class="zhanshione zhanshioneright">
+                        </i>
+                    </div>
+                    <div class="adright">
+                    </div>
+                </div>
+                <div class="tushuzhanshitwo">
+                    <div class="adleft">
+                        <i class="topad"></i>
+                        <div class="bottomad">
+                            <ul class="diyi">
+                                <li><a href="javascript:;">童书</a></li>
+                                <li><a href="javascript:;">考试</a></li>
+                                <li><a href="javascript:;">青春文学</a></li>
+                                <li><a href="javascript:;">历史</a></li>
+                            </ul>
+                            <ul class="diyi dier">
+                                <li><a href="javascript:;">中小学教辅</a></li>
+                                <li><a href="javascript:;">小说</a></li>
+                                <li><a href="javascript:;">成功/励志</a></li>
+                                <li><a href="javascript:;">亲子/家教</a></li>
+                            </ul>
+                            <ul class="diyi">
+                                <li><a href="javascript:;">外语</a></li>
+                                <li><a href="javascript:;">文学</a></li>
+                                <li><a href="javascript:;">管理</a></li>
+                                <li><a href="javascript:;">全部分类&gt; </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="adcenter">
+                        <i class="adcentertop"><img src="../images/index/adcenterone.jpg" alt=""></i>
+                        <i class="zhanshione">
+                        </i>
+                        <i class="zhanshione zhanshioneright">
+                        </i>
+                    </div>
+                    <div class="adright">
+                    </div>
+                </div>
+            </div>
+            <div class="paihangbangbankuai">
+                <button class="btnchangxiao">图书畅销榜</button>
+                <button class="btnxinshu">童书新书榜</button>
+                <div class="tushuchangxiao">
+                    <ul>
+                        <li class="off huaru">
+                            <a href="javascript:;"></a>
+                            <span class="paiming">1</span><span class="timu">亚瑟和朵拉（全十三册）
+                                畅销世界的学前教育经典绘本，中英双语，附带拼音，正反书独立编排，助孩子轻松</span>
+                        </li>
+                        <li class="off">
+                            <a href="javascript:;"></a>
+                            <span class="paiming">2</span><span class="timu">亚瑟和朵拉（全十三册）
+                                畅销世界的学前教育经典绘本，中英双语，附带拼音，正反书独立编排，助孩子轻松</span>
+                        </li>
+                        <li class="off">
+                            <a href="javascript:;"></a>
+                            <span class="paiming">3</span><span class="timu">亚瑟和朵拉（全十三册）
+                                畅销世界的学前教育经典绘本，中英双语，附带拼音，正反书独立编排，助孩子轻松</span>
+                        </li>
+                        <li class="off">
+                            <a href="javascript:;"></a>
+                            <span class="paiming">4</span><span class="timu">亚瑟和朵拉（全十三册）
+                                畅销世界的学前教育经典绘本，中英双语，附带拼音，正反书独立编排，助孩子轻松</span>
+                        </li>
+                        <li class="off">
+                            <a href="javascript:;"></a>
+                            <span class="paiming">5</span><span class="timu">亚瑟和朵拉（全十三册）
+                                畅销世界的学前教育经典绘本，中英双语，附带拼音，正反书独立编排，助孩子轻松</span>
+                        </li>
+                        <li class="off">
+                            <a href="javascript:;"></a>
+                            <span class="paiming">6</span><span class="timu">亚瑟和朵拉（全十三册）
+                                畅销世界的学前教育经典绘本，中英双语，附带拼音，正反书独立编排，助孩子轻松</span>
+                        </li>
+                        <li class="off">
+                            <a href="javascript:;"></a>
+                            <span class="paiming">7</span><span class="timu">亚瑟和朵拉（全十三册）
+                                畅销世界的学前教育经典绘本，中英双语，附带拼音，正反书独立编排，助孩子轻松</span>
+                        </li>
+                        <li class="off">
+                            <a href="javascript:;"></a>
+                            <span class="paiming">8</span><span class="timu">亚瑟和朵拉（全十三册）
+                                畅销世界的学前教育经典绘本，中英双语，附带拼音，正反书独立编排，助孩子轻松</span>
+                        </li>
+                        <li class="off">
+                            <a href="javascript:;"></a>
+                            <span class="paiming">9</span><span class="timu">亚瑟和朵拉（全十三册）
+                                畅销世界的学前教育经典绘本，中英双语，附带拼音，正反书独立编排，助孩子轻松</span>
+                        </li>
+                        <li class="off">
+                            <a href="javascript:;"></a>
+                            <span class="paiming">10</span><span class="timu">亚瑟和朵拉（全十三册）
+                                畅销世界的学前教育经典绘本，中英双语，附带拼音，正反书独立编排，助孩子轻松</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    // 4.初始化Swiper
+    var mySwiper1 = new Swiper('.swiper-container', {
+        loop: true, // 循环模式选项
+        autoplay: {
+            delay: 3000
+        },
+        effect: 'fade',
+        fadeEffect: {
+            crossFade: true
+        },
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        /*  pagination: {
+             el: '.swiper-pagination',
+             clickable: true,
+             renderBullet: function (index, className) {
+                 return '<span class="' + className + '" width="10px" height="10px">' + (index + 1) + '</span>';
+             }, */
+        // },
+
+        // 如果需要前进后退按钮
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // 如果需要滚动条
+        /*  scrollbar: {
+             el: '.swiper-scrollbar',
+         }, */
+
+    })
+
+    //秒杀功能
+    getTime();
+    function getTime() {
+        var time1 = new Date();
+        var time2 = new Date("2020-11-11 00:00:00");
+        var time11 = time1.getTime()
+        var time22 = time2.getTime()
+        var timeall = Math.abs(time11 - time22)
+        timeall = parseInt(timeall / 1000);
+        var day = timeall / (60 * 60 * 24);
+        day = Math.floor(day);
+
+        timeall = timeall - day * (60 * 60 * 24);
+        var hour = Math.floor(timeall / (60 * 60));
+        // console.log(hour)
+        timeall = timeall - hour * (60 * 60);
+        var minute = Math.floor(timeall / 60);
+        // console.log(minute)
+        var seconds = timeall - minute * 60;
+        // console.log(seconds)
+        var arr = [
+            parseInt(hour / 10), hour % 10, parseInt(minute / 10), minute % 10,
+            parseInt(seconds / 10), seconds % 10,
+        ]
+        for (var i = 0; i < 6; i++) {
+            $(".shijian span i").eq(i).html(arr[i])
+        }
+    }
+    setInterval(function () {
+        getTime();
+    }, 1000)
+</script>
+
+</html>
